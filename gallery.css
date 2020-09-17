@@ -1,0 +1,202 @@
+#navigation {
+  margin-left: 80%;
+}
+
+li {
+  float: left;
+  border-right: 0px solid #bbb;
+  font-size: 15px;
+}
+li a{
+  display: block;
+  color: #4d4d33;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  margin-right: 10px;
+  }
+li a:hover{
+  background-color: #c2c2a3;
+}
+li:last-child{
+  border-right: none;
+}
+
+  .parallax {
+    background: url(./gallery.html/.image-gallery), no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /*height: 500px;*/
+  }
+
+*,
+* ::before,
+*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    /*display: flex;*/
+}
+
+.container{
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.image-gallery{
+    margin: 70px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto; 
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+    'img-1 img-2 img-3 img-3'
+    'img-1 img-4 img-5 img-6'
+    'img-7 img-7 img-8 img-6';
+}
+
+.image-gallery a{
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.image-gallery a i{
+   color: rgba(255, 255, 255, .6);
+   font-size: 3rem;
+   position: relative;
+   z-index: 100;
+   padding: 1rem 3rem;
+   border: 2px solid rgba(255, 255, 255, .6);
+   border-radius: .4rem;
+   opacity: 0;
+   transition: opacity .5s;
+}
+
+.image-gallery a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.image-gallery a:hover i, 
+.image-gallery a:hover::before{
+    opacity: 1;
+}
+
+.img-1{
+    grid-area: img-1;
+    min-height: 51.5rem;
+    background-image: url(images/black.jpg);
+}
+
+.img-2{
+    grid-area: img-2;
+    background-image: url(images/loco.jpg);
+}
+
+.img-3{
+    grid-area: img-3;
+    background-image: url(images/firma.jpg);
+}
+
+.img-4{
+    grid-area: img-4;
+    background-image: url(images/loca.jpeg);
+}
+
+.img-5{
+    grid-area: img-5;
+    background-image: url(images/spaceshuttle.jpg);
+}
+
+.img-6{
+    grid-area: img-6;
+    min-height: 41.5rem;
+    background-image: url(images/uno.jpg);
+}
+
+.img-7{
+    grid-area: img-7;
+    background-image: url(images/flores.jpg);
+}
+
+.img-8{
+    grid-area: img-8;
+    background-image: url(images/cafe.jpg);
+}
+
+@media screen and (max-width: 900px){
+    .image-gallery{
+    grid-template-areas: 
+      'img-1 img-1 img-2 img-2'
+      'img-1 img-1 img-3 img-3'
+      'img-4 img-4 img-5 img-5'
+      'img-6 img-7 img-7 img-7'
+      'img-8 img-8 img-8 img-8'
+    }
+
+  .image-gallery a {
+    height: 20rem;
+  }
+   .img-1{
+    min-height: 41.5rem;
+  }
+
+   .img-6{
+    min-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+    .image-gallery{
+    grid-template-areas: 
+      'img-1 img-1 img-1 img-1'
+      'img-2 img-2 img-2 img-2'
+      'img-3 img-3 img-3 img-3'
+      'img-4 img-4 img-4 img-4'
+      'img-5 img-5 img-5 img-5'
+      'img-6 img-6 img-6 img-6'
+      'img-7 img-7 img-7 img-7'
+      'img-8 img-8 img-8 img-8'
+    }
+    
+  .image-gallery a {
+    height: 20rem;
+  }
+   .img-1{
+    min-height: 41.5rem;
+  }
+
+   .img-6{
+    min-height: 20rem;
+  }
+}

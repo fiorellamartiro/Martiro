@@ -1,0 +1,141 @@
+
+   p {
+   font-size: 15px;
+   font-family: 'Nunito', sans-serif;
+    }
+  
+  body {
+    background-color: floralwhite;
+  }
+
+ .title {
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  color: #1f1f14;
+  text-align: center;
+ }
+
+ #titulo {
+  font-size: 350%;
+ }
+
+ .bio {
+  font-family: 'Nunito', sans-serif;
+  top: 670px;
+  left:710px;
+  color: black;
+  text-align: center;
+ }
+
+ #parrafo {
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   top: 720px;
+   left:567px;
+   color:black;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   width: 20em;
+   text-align: justify;
+   
+ }
+
+ .work {
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  left:650px;
+  color: black;
+  text-align: center;
+ }
+
+#parrafo2 {
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   color:black;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20em;
+   text-align: justify;
+   margin-bottom: 30px;
+}
+ 
+.parallax1 {
+  background: url("images/fiorella.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+.parallax2 {
+  height: 460px;
+  background: #00091a;
+  background-image: url("images/pincel2.jpg");
+  background-size: cover;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  margin-left: 465px;
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+
+.instagram{
+  margin-left: 360px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 400px) {
+  .title {
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  color: #1f1f14;
+  text-align: center;
+ }
+
+ .bio {
+  font-family: 'Nunito', sans-serif;
+  top: 450px;
+  left:150px;
+  color: black;
+ }
+
+ #parrafo {
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   top: 500px;
+
+   color:black;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20em
+ }
+
+ .work {
+  font-family: 'Nunito', sans-serif;
+  left:110px;
+  color: black;
+ }
+
+#parrafo2 {
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   top: 750px;
+   left:10px;
+   color:black;
+   padding: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20em
+}
+
+.parallax1 {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+  width: 500px;
+}
+}
