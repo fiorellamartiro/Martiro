@@ -3,7 +3,7 @@
    font-size: 15px;
    font-family: 'Nunito', sans-serif;
     }
-  
+
   body {
     background-color: floralwhite;
   }
@@ -38,7 +38,7 @@
    padding: 20px;
    width: 20em;
    text-align: justify;
-   
+
  }
 
  .work {
@@ -60,7 +60,7 @@
    text-align: justify;
    margin-bottom: 30px;
 }
- 
+
 .parallax1 {
   background: url("images/fiorella.jpg") no-repeat center;
   background-size: cover;
@@ -72,7 +72,7 @@
   height: 460px;
   background: #00091a;
   background-image: url("images/pincel2.jpg");
-  background-size: cover;   
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

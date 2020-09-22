@@ -19,7 +19,7 @@ li a{
 li a:hover{
     background-color: #c2c2a3;
   }
-  
+
 li:last-child{
     border-right: none;
   }
