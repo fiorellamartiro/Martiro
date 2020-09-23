@@ -1,12 +1,11 @@
+body {
+  background-color: floralwhite;
+}
 
   p {
    font-size: 15px;
    font-family: 'Nunito', sans-serif;
     }
-
-  body {
-    background-color: floralwhite;
-  }
 
  .title {
   margin: 5vh;
@@ -16,7 +15,7 @@
  }
 
  #titulo {
-  font-size: 350%;
+  font-size: 250%;
  }
 
  .bio {
@@ -62,20 +61,30 @@
 }
 
 .parallax1 {
-  background: url("images/fiorella.jpg") no-repeat center;
+  background: url("images/playa7.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 450px;
 }
 
 .parallax2 {
-  height: 460px;
+  height: 360px;
   background: #00091a;
-  background-image: url("images/pincel2.jpg");
+  background-image: url("images/loca.jpeg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
+}
+
+.about{
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  left:650px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
 }
 
 .video {
@@ -89,13 +98,7 @@
   margin-bottom: 10px;
 }
 
-.mas {
-  font-family: 'Bebas Neue', cursive;
-  color: white;
-  text-align: center;
-  font-size: 180px;
-  text-shadow:1px 1px gray;
-}
+
 
 @media screen and (max-width: 400px) {
   .title {
@@ -147,4 +150,5 @@
   height: 250px;
   width: 500px;
 }
+
 }
