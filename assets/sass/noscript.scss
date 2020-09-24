@@ -31,17 +31,6 @@
 		}
 	}
 
-	/* Merch */
-
-	#main2 {
-		body.is-preload & {
-			.merch {
-				@include vendor('pointer-events', 'auto');
-				opacity: 1;
-			}
-		}
-	}
-
 /* Header */
 
 	#header {
