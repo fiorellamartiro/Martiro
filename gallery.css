@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-/* Main */
+/* Work */
 
 h2 {
   color: white;
@@ -12,6 +12,13 @@ h2 {
 
 .thumb:hover {
   background-color: #0f0f0a;
+}
+
+.parallax {
+  background: url("images/loca.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
 }
 
 #main {
@@ -56,7 +63,10 @@ h2 {
       position: absolute;
       top: 0;
       width: 100%;
-      border: 6px solid white;
+      border-top: 20px solid white;
+      border-left: 18px solid white;
+      border-bottom: 20px solid white;
+      border-right: 18px solid white;
     }
 
     #main .thumb > .image {
@@ -166,6 +176,13 @@ h2 {
       transition-delay: 1.4s;
     }
 
+    #main .thumb:nth-child(7) {
+      -moz-transition-delay: 1.55s;
+      -webkit-transition-delay: 1.55s;
+      -ms-transition-delay: 1.55s;
+      transition-delay: 1.55s;
+    }
+
   @media screen and (max-width: 1680px) {
 
     #main .thumb {
@@ -218,6 +235,13 @@ h2 {
         -webkit-transition-delay: 1.4s;
         -ms-transition-delay: 1.4s;
         transition-delay: 1.4s;
+      }
+
+      #main .thumb:nth-child(7) {
+        -moz-transition-delay: 1.55s;
+        -webkit-transition-delay: 1.55s;
+        -ms-transition-delay: 1.55s;
+        transition-delay: 1.55s;
       }
 
   }
@@ -274,6 +298,13 @@ h2 {
         -webkit-transition-delay: 1.4s;
         -ms-transition-delay: 1.4s;
         transition-delay: 1.4s;
+      }
+
+      #main .thumb:nth-child(7) {
+        -moz-transition-delay: 1.55s;
+        -webkit-transition-delay: 1.55s;
+        -ms-transition-delay: 1.55s;
+        transition-delay: 1.55s;
       }
 
   }
@@ -367,4 +398,4 @@ h2 {
         transition-delay: 0.95s;
       }
 
-  }
+    }
