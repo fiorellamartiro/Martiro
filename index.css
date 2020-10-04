@@ -20,7 +20,7 @@ body {
 
  .bio {
   font-family: 'Nunito', sans-serif;
-  top: 670px;
+  top: 650px;
   left:710px;
   color: black;
   text-align: center;
@@ -67,8 +67,16 @@ body {
   height: 450px;
 }
 
+.about{
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  left:650px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
 .parallax2 {
-  height: 360px;
+  height: 260px;
   background: #00091a;
   background-image: url("images/loca.jpeg");
   background-size: cover;
@@ -78,29 +86,21 @@ body {
   background-attachment: fixed;
 }
 
-.about{
-  margin: 5vh;
-  font-family: 'Nunito', sans-serif;
-  left:650px;
-  color: white;
-  text-align: center;
-  font-weight: 900;
-}
-
 .video {
-  margin-left: 470px;
+  margin-left: 485px;
   margin-top: 100px;
   margin-bottom: 150px;
 }
 
 .instagram{
-  margin-left: 368px;
+  margin-left: 376px;
   margin-bottom: 10px;
 }
 
 
 
 @media screen and (max-width: 400px) {
+  
   .title {
   width: 100%;
   font-family: 'Nunito', sans-serif;

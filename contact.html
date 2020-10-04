@@ -67,8 +67,10 @@ margin: 5px;
   </div>
 </nav>
 
+<!--parallax-->
 <div class="parallax2"></div>
 
+<!--form-->
 <section id="fourth" class="main">
   <header>
     <div class="container">
@@ -85,8 +87,8 @@ margin: 5px;
         <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
         <div class="col-12">
           <ul class="actions special">
-            <li><input type="submit" class="button" value="Send Message" /></li>
-            <li><input type="reset" class="button alt" value="Clear Form" /></li>
+            <li><input type="button" name="submit" id="submit" onclick="sendEmail()" value="Send Message"></li>
+            <li><input type="reset" class="button alt" value="Clear Form"/></li>
           </ul>
         </div>
       </div>
@@ -94,9 +96,38 @@ margin: 5px;
   </div>
 </div>
 
+<!--Footer-->
 <section id="footer">
   <div class="instagram">
   <a target="_blank" href="https://www.instagram.com/fiorellamartiro/"><img src="./images/icon.ico" width="35px" class="instagram"></a>
   </div>
+
+<!--script-->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+      function sendEmail(){
+          Email.send({
+              Host : "smtp.gmail.com",
+              Username : "infomartiro@gmail.com",
+              Password : "astronomia2020",
+              To : 'infomartiro@gmail.com',
+              From : "infomartiro@gmail.com",
+              Subject : "This is the subject",
+              Body : "And this is the body"
+          }).then(
+          message => alert(message)
+  );
+  }    
+  </script>
+
+<!--function-->
+<script>
+  function getvalues(){
+  let correo = document.getElementById('Email');
+  console.log(correo.value);
+  }
+</script>
+
+</body>
 
 </html>
