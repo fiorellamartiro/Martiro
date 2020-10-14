@@ -1186,3 +1186,55 @@ button.alt:hover,
 		.instagram{
 		  margin-left: 372px;
 		}
+
+		/*Instagram*/
+
+@media screen and (max-width: 350px) {
+	.instagram {
+	  margin-left: 0%;
+	  margin-bottom: 1em;
+	  margin-top: 0em;
+	}
+  }
+  
+  @media screen and (max-width: 420px) {
+	
+	.instagram{
+	  margin-left: 4em;
+	  margin-bottom: 1em;
+	  margin-top: 0em;
+	}
+  }  
+  
+  @media screen and (max-width: 608px) {
+	.instagram{
+	  margin-left: 8em;
+	  margin-bottom: 1em;
+	  margin-top: 0em;
+	}
+  }
+  
+  @media screen and (max-width: 680px) {
+	.instagram{
+	  margin-left: 10em;
+	  margin-bottom: 1em;
+	  margin-top: 0em;
+	}
+  }
+  
+  @media screen and (max-width: 736px) {
+  
+	.instagram{
+	  margin-left: 10em;
+	  margin-bottom: 1em;
+	  margin-top: 0em;
+	}
+  }
+
+  @media screen and (max-width: 850px) {
+	.instagram{
+		margin-left: 8.5em;
+		margin-bottom: 1em;
+		margin-top: 0em;
+	  }
+  }

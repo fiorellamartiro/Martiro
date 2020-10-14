@@ -5,51 +5,55 @@ body {
   background-color: floralwhite;
 }
 
-  p {
-   font-size: 15px;
-   font-family: 'Nunito', sans-serif;
-    }
+#wrapper {
+  position: relative;
+  width: 984px;
+  margin: 0px auto 0 auto;
+  text-align: center;
+}
 
- .title {
+p {
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title {
   margin: 5vh;
   font-family: 'Nunito', sans-serif;
   color: #1f1f14;
   text-align: center;
- }
-
- #titulo {
   font-size: 250%;
- }
+}
 
- .bio {
+.bio {
   font-family: 'Nunito', sans-serif;
   top: 650px;
   left:710px;
   color: black;
   text-align: center;
- }
+}
 
- #parrafo {
-   font-size: 17px;
-   font-family: 'Nunito', sans-serif;
-   top: 720px;
-   left:567px;
-   color:black;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 20px;
-   width: 20em;
-   text-align: justify;
+#parrafo {
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  top: 720px;
+  left:567px;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 20em;
+  text-align: justify;
 
- }
+}
 
- .work {
+.work {
   margin: 5vh;
   font-family: 'Nunito', sans-serif;
   left:650px;
   color: black;
   text-align: center;
- }
+}
 
 #parrafo2 {
    font-size: 17px;
@@ -135,76 +139,133 @@ h2.major {
   text-align: center;
 }
 
-  h2.major span {
-    background: #fff;
-    position: relative;
-    display: inline-block;
-    top: -0.775em;
-    padding: 0 1.25em 0 1.25em;
-  }
+h2.major span {
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  top: -0.775em;
+  padding: 0 1.25em 0 1.25em;
+}
 
-@media screen and (max-width: 608px) {
-  .instagram{
-    margin-left: 9em;
+/*Responsive*/
+
+@media screen and (max-width: 350px) {
+  .instagram {
+    margin-left: 0%;
     margin-bottom: 1em;
     margin-top: 0em;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
+  
+  hr {
+    display: none;
+  }
+
+  #wrapper {
+    position: relative;
+    width: 984px;
+    margin: 0px auto 0 auto;
+    text-align: center;
+  }
   
   .title {
-  width: 100%;
-  font-family: 'Nunito', sans-serif;
-  color: #1f1f14;
-  text-align: center;
- }
+    font-family: 'Nunito', sans-serif;
+    color: #1f1f14;
+    text-align: center;
+    top: 450px;
+    left:150px;
+  }
+  
+  .bio {
+    font-family: 'Nunito', sans-serif;
+    top: 450px;
+    left:150px;
+    color: black;
+   }
+  
+  #parrafo {
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    top: 500px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+  }
+  
+  .work {
+    font-family: 'Nunito', sans-serif;
+    left:110px;
+    color: black;
+  }
+  
+  #parrafo2 {
+     font-size: 17px;
+     font-family: 'Nunito', sans-serif;
+     top: 750px;
+     left:10px;
+     color:black;
+     padding: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20em
+  }
+  
+  .parallax1 {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    width: 500px;
+  }
+  .instagram{
+    margin-left: 4em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+  }
+}  
 
- .bio {
-  font-family: 'Nunito', sans-serif;
-  top: 450px;
-  left:150px;
-  color: black;
- }
+@media screen and (max-width: 608px) {
+  .instagram{
+    margin-left: 8em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+  }
+  
+  #wrapper {
+    position: relative;
+    width: 984px;
+    margin: 0px auto 0 auto;
+    text-align: center;
+  }
 
- #parrafo {
-   font-size: 17px;
-   font-family: 'Nunito', sans-serif;
-   top: 500px;
-
-   color:black;
-   margin-left: auto;
-   margin-right: auto;
-   width: 20em
- }
-
- .work {
-  font-family: 'Nunito', sans-serif;
-  left:110px;
-  color: black;
- }
-
-#parrafo2 {
-   font-size: 17px;
-   font-family: 'Nunito', sans-serif;
-   top: 750px;
-   left:10px;
-   color:black;
-   padding: 30px;
-   margin-left: auto;
-   margin-right: auto;
-   width: 20em
+  hr {
+    display: none;
+  }
 }
 
-.parallax1 {
-  background-size: cover;
-  background-attachment: fixed;
-  height: 250px;
-  width: 500px;
+@media screen and (max-width: 680px) {
+  .instagram{
+    margin-left: 10em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+  }
+
+  hr {
+    display: none;
+  }
 }
-.instagram{
-  margin-left: 9em;
-  margin-bottom: 1em;
-  margin-top: 0em;
-}
+
+@media screen and (max-width: 736px) {
+
+  .instagram{
+    margin-left: 10em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+  }
+
+  hr {
+    display: none;
+  }
 }
