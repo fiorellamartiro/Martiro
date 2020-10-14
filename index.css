@@ -112,8 +112,9 @@ p {
   max-width: 500px;
 }
 
-.instagram{
-  margin-left: 23.5em;
+.instagram{ 
+  display: flex;
+  justify-content: center;
   margin-bottom: 1em;
   margin-top: 0em;
 }
@@ -151,7 +152,7 @@ h2.major span {
 
 @media screen and (max-width: 350px) {
   .instagram {
-    margin-left: 0%;
+    
     margin-bottom: 1em;
     margin-top: 0em;
   }
@@ -220,7 +221,7 @@ h2.major span {
     width: 500px;
   }
   .instagram{
-    margin-left: 4em;
+    
     margin-bottom: 1em;
     margin-top: 0em;
   }
@@ -228,7 +229,7 @@ h2.major span {
 
 @media screen and (max-width: 608px) {
   .instagram{
-    margin-left: 8em;
+    
     margin-bottom: 1em;
     margin-top: 0em;
   }
@@ -247,7 +248,7 @@ h2.major span {
 
 @media screen and (max-width: 680px) {
   .instagram{
-    margin-left: 10em;
+    
     margin-bottom: 1em;
     margin-top: 0em;
   }
@@ -260,7 +261,7 @@ h2.major span {
 @media screen and (max-width: 736px) {
 
   .instagram{
-    margin-left: 10em;
+    
     margin-bottom: 1em;
     margin-top: 0em;
   }
