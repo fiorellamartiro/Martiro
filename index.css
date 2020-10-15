@@ -151,10 +151,8 @@ h2.major span {
 /*Responsive*/
 
 @media screen and (max-width: 350px) {
-  .instagram {
-    
-    margin-bottom: 1em;
-    margin-top: 0em;
+  hr {
+    display: none;
   }
 }
 
@@ -220,20 +218,9 @@ h2.major span {
     height: 250px;
     width: 500px;
   }
-  .instagram{
-    
-    margin-bottom: 1em;
-    margin-top: 0em;
-  }
 }  
 
 @media screen and (max-width: 608px) {
-  .instagram{
-    
-    margin-bottom: 1em;
-    margin-top: 0em;
-  }
-  
   #wrapper {
     position: relative;
     width: 984px;
@@ -247,25 +234,18 @@ h2.major span {
 }
 
 @media screen and (max-width: 680px) {
-  .instagram{
-    
-    margin-bottom: 1em;
-    margin-top: 0em;
-  }
-
   hr {
     display: none;
   }
 }
 
 @media screen and (max-width: 736px) {
-
-  .instagram{
-    
-    margin-bottom: 1em;
-    margin-top: 0em;
+  hr {
+    display: none;
   }
+}
 
+@media screen and (max-width: 976px) {
   hr {
     display: none;
   }

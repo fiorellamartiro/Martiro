@@ -887,7 +887,7 @@ p {
 		-ms-appearance: none;
 		appearance: none;
 		display: block;
-		box-shadow: inset 0 0 0 1px #e6e6e6;
+		box-shadow: inset 0 0 0 1px #c2c2a3;
 		background: #f8f8f8;
 		width: 100%;
 		padding: 0.85em 1em 0.85em 1em;
@@ -1054,7 +1054,7 @@ input[type="reset"].alt,
 button.alt,
 .button.alt {
     color: inherit;
-	box-shadow: inset 0 0 0 1px #e6e6e6;
+	box-shadow: inset 0 0 0 1px grey;
     background: none;
 }
 
@@ -1183,58 +1183,10 @@ button.alt:hover,
 		  padding: 0 1.25em 0 1.25em;
 		}
   
-		.instagram{
-		  margin-left: 372px;
-		}
+		.instagram{ 
+			display: flex;
+			justify-content: center;
+			margin-bottom: -10em;
+			margin-top: 0em;
+		  }
 
-		/*Instagram*/
-
-@media screen and (max-width: 350px) {
-	.instagram {
-	  margin-left: 0%;
-	  margin-bottom: 1em;
-	  margin-top: 0em;
-	}
-  }
-  
-  @media screen and (max-width: 420px) {
-	
-	.instagram{
-	  margin-left: 4em;
-	  margin-bottom: 1em;
-	  margin-top: 0em;
-	}
-  }  
-  
-  @media screen and (max-width: 608px) {
-	.instagram{
-	  margin-left: 8em;
-	  margin-bottom: 1em;
-	  margin-top: 0em;
-	}
-  }
-  
-  @media screen and (max-width: 680px) {
-	.instagram{
-	  margin-left: 10em;
-	  margin-bottom: 1em;
-	  margin-top: 0em;
-	}
-  }
-  
-  @media screen and (max-width: 736px) {
-  
-	.instagram{
-	  margin-left: 10em;
-	  margin-bottom: 1em;
-	  margin-top: 0em;
-	}
-  }
-
-  @media screen and (max-width: 850px) {
-	.instagram{
-		margin-left: 8.5em;
-		margin-bottom: 1em;
-		margin-top: 0em;
-	  }
-  }
