@@ -4,6 +4,11 @@
 
     /*Footer*/
     
+    h2 {
+     color: white;
+     font-family: 'Nunito', sans-serif;
+    }
+
     h2.major {
       position: relative;
       border-top: solid 5px #e7eae8;
@@ -14,7 +19,7 @@
       font-family: 'Open Sans Condensed', sans-serif;
       font-weight: 700;
       text-transform: uppercase;
-      color: #6b7770;
+      color: white;
       margin: 0 0 0.5em 0;
       line-height: 1.3;
     }
